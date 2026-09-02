@@ -1,0 +1,16 @@
+{
+  "loginData": {
+    "email": "ahmed.abdelbary@alahlymomkn.com",
+    "password": "Ahmed#Mostafa1212"
+  },
+  "invalidLoginCredentials": {
+    "email": "test@test.com",
+    "password": "test@test!",
+    "emptyData": ""
+  },
+  "messages": {
+    "invalidLoginErrorMessage": "Wrong Email or Password.",
+    "emptyEmailErrorMessage": "this field is required"
+  },
+  "expectedURL": "http://10.140.105.111:30002/home"
+}

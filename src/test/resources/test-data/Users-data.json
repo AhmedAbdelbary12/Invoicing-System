@@ -1,0 +1,7 @@
+{
+  "loginData": {
+    "email": "ahmed.abdelbary@alahlymomkn.com",
+    "password": "Ahmed#Mostafa1212",
+    "expectedURL": "http://10.140.105.111:30002/home"
+  }
+}

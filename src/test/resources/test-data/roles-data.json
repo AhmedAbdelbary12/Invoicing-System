@@ -1,0 +1,40 @@
+{
+  "loginData": {
+    "email": "ahmed.abdelbary@alahlymomkn.com",
+    "password": "Ahmed#Mostafa1212"
+  },
+  "expectedURL": "http://10.140.105.111:30002/home",
+  "roleName": "ADMIN AUTOMATION ",
+  "expectedSuccessAddedRole": "Action done successfully",
+  "expectedSuccessUpdatedRole": "Action done successfully",
+  "selectAll": {
+    "HierarchyBuilder": "Hierarchy Builder",
+    "UserManagement": "User Management",
+    "RoleManagement": "Role Management",
+    "InvoicingManagement": "Invoicing Management",
+    "ServiceCatalog": "Service Catalog",
+    "FeesConfiguration": "Fees Configuration",
+    "BankInfo": "Bank Info"
+  },
+  "roleNameWithSpecialCharacters": "AUTOMATION_ROLE@NAME",
+  "roleNameWithSpaces": "  ADMIN",
+  "roleNameWithNumbers": "123456789",
+  "roleNameWithThreeChars": "ADM",
+  "roleNameWithLessThreeChars": "AD",
+  "roleNameWithMaximumCharacters": "AUTOMATIONAUTOMATIONAUTOMATIONAUTOMATIONAUTOMATION",
+  "ErrorMessages": {
+    "ExpectedMessageForIgnoringSelectAnyRole": "At least one permission must be selected in one module",
+    "ExpectedMessageForIgnoringRoleName": "Role Name is required",
+    "ExpectedMessageForIgnoringOrganization": "Organization is required",
+    "duplicatedRoleMessage": "Duplicate role",
+    "specialCharactersNotAllowed": "Special characters are not allowed.",
+    "spacesNotAllowed": "User Name cannot start with a space.",
+    "enterAtLeastOneLetter": "Please enter at least 1 letter.",
+    "maximumCharactersAllowed": "Maximum 50 characters allowed.",
+    "minimumCharactersAllowed": "Minimum 3 characters allowed."
+  },
+  "cancelMessage": "Cancel creation?",
+  "RoleStatus": "Active",
+  "InActiveStatus": "Inactive",
+  "selectedOrganizationName": "abu dahbi bank"
+}

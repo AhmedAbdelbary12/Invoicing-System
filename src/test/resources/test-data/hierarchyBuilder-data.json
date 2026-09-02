@@ -1,0 +1,21 @@
+{
+  "loginData": {
+    "email": "ahmed.abdelbary@alahlymomkn.com",
+    "password": "Ahmed#Mostafa1212"
+  },
+  "expectedURL": "http://10.140.105.111:30002/home",
+  "levelName": "TestLevelName",
+  "levelNote": "TestLevelNote",
+  "OrgInfo": {
+    "DisplayName": "automation ",
+    "Slug": "nnteetnas",
+    "mobileNumber": "01278021209",
+    "landLineNumber": "",
+    "contactEmail": "ahmed@alahly.com",
+    "contactAddress": "CAIRO",
+    "firstDayOfWeek": "1",
+    "dateFormat": "1",
+    "paymentMethodType": "1",
+    "logoPath": "src/main/resources/logo.png"
+  }
+}
