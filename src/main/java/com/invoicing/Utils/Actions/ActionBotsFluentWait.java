@@ -30,8 +30,11 @@ public class ActionBotsFluentWait {
                 element.click();
                 LogsManager.info("Clicked on Element: " + by + " Successfully");
                 return true;
+            } catch (StaleElementReferenceException e) {
+                LogsManager.debug("Retrying click - Stale element: " + by);
+                return false;
             } catch (Exception e) {
-                LogsManager.error("Failed To Click: " + by + " - " + e.getMessage());
+                LogsManager.warn("Retrying click: " + by + " - " + e.getMessage());
                 return false;
             }
         });

@@ -1,4 +1,0 @@
-[INFO] 02-09-2026 18:14:36 [main] [com.invoicing.CustomListeners.TestNgListeners] - Test successful : addNewHierarchy Passed 
-[INFO] 02-09-2026 18:14:36 [main] [com.invoicing.DB.DBManager] - DB Connection Closed
-[INFO] 02-09-2026 18:14:50 [main] [com.invoicing.FileUtils] - Target File Path C:\Users\Ahmed.Abdelbary\Desktop\POS Revamp Automation\Invoicing\test-output\reports\index.html was renamed to AllureReport_20260902181450.html 
-[INFO] 02-09-2026 18:14:50 [main] [com.invoicing.CustomListeners.TestNgListeners] - Allure Report is generated

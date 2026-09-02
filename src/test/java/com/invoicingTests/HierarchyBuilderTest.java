@@ -75,7 +75,8 @@ public class HierarchyBuilderTest extends BaseTest {
                 .NavigateToHierarchyBuilderPage()
                 .clickOnAddNewHierarchyButton()
                 .clickOnNewHierarchButton()
-                .selectOrganization(jsonReader.getJsonData("OrgInfo.DisplayName") + TimeStamp);
+                .selectOrganization(jsonReader.getJsonData("OrgInfo.DisplayName") + TimeStamp)
+                .clickOnAddLevel("Subject");
     }
     // Add new Feature
 
