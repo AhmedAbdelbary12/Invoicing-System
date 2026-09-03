@@ -1,28 +1,28 @@
-[DEBUG] 02-09-2026 18:14:14 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Ahmed.Abdelbary\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml"
-[INFO] 02-09-2026 18:14:15 [main] [com.invoicing.CustomListeners.TestNgListeners] - Test Execution Started
-[INFO] 02-09-2026 18:14:15 [main] [com.invoicing.CustomListeners.TestNgListeners] - Directories are cleaned
-[INFO] 02-09-2026 18:14:15 [main] [com.invoicing.FileUtils] - Directory is Created Successfully
-[INFO] 02-09-2026 18:14:15 [main] [com.invoicing.CustomListeners.TestNgListeners] - Test Execution are created
-[INFO] 02-09-2026 18:14:15 [main] [com.invoicing.CustomListeners.TestNgListeners] - Properties files are loaded
-[INFO] 02-09-2026 18:14:15 [main] [com.invoicing.Utils.Reports.AllureEnvironmentManager] - Allure Environment Manager has been set
-[WARN] 02-09-2026 18:14:16 [main] [com.invoicing.Utils.Reports.AllureBinaryManager$LazyHolder] - Couldn't resolve latest Allure version. Using default 2.34.1
-[WARN] 02-09-2026 18:14:16 [main] [com.invoicing.Utils.Reports.AllureBinaryManager] - Downloading Allure Report from 2.34.1
-[INFO] 02-09-2026 18:14:16 [main] [com.invoicing.Utils.Reports.AllureBinaryManager] - Allure Binary Already exists
-[INFO] 02-09-2026 18:14:16 [main] [com.invoicing.CustomListeners.TestNgListeners] - Allure Environment is set
-[INFO] 02-09-2026 18:14:16 [main] [org.testng.internal.Utils] - [TestNG] Running:
+[DEBUG] 02-09-2026 23:15:51 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Ahmed.Abdelbary\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml"
+[INFO] 02-09-2026 23:15:52 [main] [com.invoicing.CustomListeners.TestNgListeners] - Test Execution Started
+[INFO] 02-09-2026 23:15:52 [main] [com.invoicing.CustomListeners.TestNgListeners] - Directories are cleaned
+[INFO] 02-09-2026 23:15:52 [main] [com.invoicing.FileUtils] - Directory is Created Successfully
+[INFO] 02-09-2026 23:15:52 [main] [com.invoicing.CustomListeners.TestNgListeners] - Test Execution are created
+[INFO] 02-09-2026 23:15:52 [main] [com.invoicing.CustomListeners.TestNgListeners] - Properties files are loaded
+[INFO] 02-09-2026 23:15:52 [main] [com.invoicing.Utils.Reports.AllureEnvironmentManager] - Allure Environment Manager has been set
+[WARN] 02-09-2026 23:15:54 [main] [com.invoicing.Utils.Reports.AllureBinaryManager$LazyHolder] - Couldn't resolve latest Allure version. Using default 2.34.1
+[WARN] 02-09-2026 23:15:54 [main] [com.invoicing.Utils.Reports.AllureBinaryManager] - Downloading Allure Report from 2.34.1
+[INFO] 02-09-2026 23:15:54 [main] [com.invoicing.Utils.Reports.AllureBinaryManager] - Allure Binary Already exists
+[INFO] 02-09-2026 23:15:54 [main] [com.invoicing.CustomListeners.TestNgListeners] - Allure Environment is set
+[INFO] 02-09-2026 23:15:54 [main] [org.testng.internal.Utils] - [TestNG] Running:
   C:\Users\Ahmed.Abdelbary\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
 
-[INFO] 02-09-2026 18:14:16 [main] [com.invoicing.DB.DBManager] - DB Connected Successfully
-[INFO] 02-09-2026 18:14:16 [main] [com.invoicing.Drivers.GUIDriver] - Starting driver for BrowserEDGE
-[INFO] 02-09-2026 18:14:19 [main] [com.invoicing.Utils.Actions.BrowserActions] - Navigated To URL : http://10.140.105.111:30002/a98a39ed-2070-472f-3238-08dec24d8998/auth/login
-[DEBUG] 02-09-2026 18:14:19 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['logoPath']
-[DEBUG] 02-09-2026 18:14:23 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['loginData']['email']
-[DEBUG] 02-09-2026 18:14:23 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['loginData']['password']
-[INFO] 02-09-2026 18:14:29 [main] [com.invoicing.APIs.userManagementAPI] - {
-    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4MzI1Y2Y5OC1kMmE3LTQ5ZDctOTRhOS02MWY5YTM2MGI4NmQiLCJlbWFpbCI6ImFobWVkLmFiZGVsYmFyeUBhbGFobHltb21rbi5jb20iLCJqdGkiOiJkYTNiOGNjNy05MDViLTRiODItOGFiMS1kMTI2YzFmM2U2MDYiLCJpYXQiOjE3ODgzNjIwMzIsImZ1bGxfbmFtZSI6ImFobWVkIG1vc3RhZmEgYWJkZWxiYXJ5IiwidGVuYW50X3NjaGVtYSI6InBsYXRmb3JtIiwidGVuYW50X2lkIjoiYTk4YTM5ZWQtMjA3MC00NzJmLTMyMzgtMDhkZWMyNGQ4OTk4IiwiaXNfc3VwZXJfYWRtaW5fdGVuYW50IjoidHJ1ZSIsInNlY3VyaXR5X3N0YW1wIjoiZDAzN2NjZGQtOWEyOS00ZGYzLTgyMGItN2Y0MTQ1ZWJiMDM5IiwiY29uY3VycmVudF9zZXNzaW9uX2lkIjoiZjIyMmNkODhhYmYwNDE0Njk3ZjIyNDMyYmQzMmI5ZmIiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsInBlcm1pc3Npb24iOlsiSGllcmFyY2h5QnVpbGRlci5WaWV3IiwiSGllcmFyY2h5QnVpbGRlci5DcmVhdGUiLCJIaWVyYXJjaHlCdWlsZGVyLkVkaXQiLCJIaWVyYXJjaHlCdWlsZGVyLkV4cG9ydCIsIlVzZXJNYW5hZ2VtZW50LlZpZXciLCJVc2VyTWFuYWdlbWVudC5DcmVhdGUiLCJVc2VyTWFuYWdlbWVudC5FZGl0IiwiVXNlck1hbmFnZW1lbnQuRXhwb3J0IiwiUm9sZU1hbmFnZW1lbnQuVmlldyIsIlJvbGVNYW5hZ2VtZW50LkNyZWF0ZSIsIlJvbGVNYW5hZ2VtZW50LkVkaXQiLCJSb2xlTWFuYWdlbWVudC5FeHBvcnQiLCJJbnZvaWNpbmdNYW5hZ2VtZW50LlZpZXciLCJJbnZvaWNpbmdNYW5hZ2VtZW50LkNyZWF0ZSIsIkludm9pY2luZ01hbmFnZW1lbnQuRWRpdCIsIkludm9pY2luZ01hbmFnZW1lbnQuRXhwb3J0IiwiU2VydmljZUNhdGFsb2cuVmlldyIsIlNlcnZpY2VDYXRhbG9nLkNyZWF0ZSBTZXJ2aWNlcyBNYW51YWxseSIsIlNlcnZpY2VDYXRhbG9nLkVkaXQiLCJTZXJ2aWNlQ2F0YWxvZy5FeHBvcnQiLCJTZXJ2aWNlQ2F0YWxvZy5TZXJ2aWNlcyBCdWxrIFVwbG9hZCIsIkZlZXNDb25maWd1cmF0aW9uLlZpZXciLCJGZWVzQ29uZmlndXJhdGlvbi5DcmVhdGUiLCJGZWVzQ29uZmlndXJhdGlvbi5FZGl0IiwiRmVlc0NvbmZpZ3VyYXRpb24uRXhwb3J0IiwiQmFua0luZm8uVmlldyIsIkJhbmtJbmZvLkNyZWF0ZSIsIkJhbmtJbmZvLkVkaXQiLCJCYW5rSW5mby5FeHBvcnQiLCJPcmdhbml6YXRpb25JbmZvLlZpZXciLCJPcmdhbml6YXRpb25JbmZvLkVkaXQiLCJPcmdhbml6YXRpb25JbmZvLkV4cG9ydCIsIk9yZ2FuaXphdGlvbkluZm8uQ29uZmlndXJlIiwiU2VydmljZUFzc2lnbm1lbnQuVmlldyIsIlNlcnZpY2VBc3NpZ25tZW50LkV4cG9ydCIsIlNlcnZpY2VBc3NpZ25tZW50LkFzc2lnbiBCYW5rIiwiU2VydmljZUFzc2lnbm1lbnQuQXNzaWduIE5vZGVzIiwiU2VydmljZUFzc2lnbm1lbnQuRWRpdCBCYW5rIiwiU2VydmljZUFzc2lnbm1lbnQuRWRpdCBOb2RlcyJdLCJleHAiOjE3ODgzNjU2MzIsImlzcyI6Ikludm9pY2luZ1N5c3RlbSIsImF1ZCI6Ikludm9pY2luZ1N5c3RlbS5DbGllbnRzIn0.G-o9mJk8aJgTbHyVvyZxB1cwz413UovnYzRMoIF9-yw",
-    "refreshToken": "lOryZpfSnt9z27aZ8m+vlrKfcUcBXFndM9LYzBuotqQLwPJ3U7iZW6+3FfgrE4+JtWUIQ8xW02ALOsfItcYhxA==",
-    "accessTokenExpiresAt": "2026-09-02T16:13:53.0033281Z",
-    "refreshTokenExpiresAt": "2026-09-09T15:13:52.9961089Z",
+[INFO] 02-09-2026 23:15:55 [main] [com.invoicing.DB.DBManager] - DB Connected Successfully
+[INFO] 02-09-2026 23:15:55 [main] [com.invoicing.Drivers.GUIDriver] - Starting driver for BrowserEDGE
+[INFO] 02-09-2026 23:15:59 [main] [com.invoicing.Utils.Actions.BrowserActions] - Navigated To URL : http://10.140.105.111:30002/a98a39ed-2070-472f-3238-08dec24d8998/auth/login
+[DEBUG] 02-09-2026 23:16:01 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['logoPath']
+[DEBUG] 02-09-2026 23:16:09 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['loginData']['email']
+[DEBUG] 02-09-2026 23:16:09 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['loginData']['password']
+[INFO] 02-09-2026 23:16:24 [main] [com.invoicing.APIs.userManagementAPI] - {
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4MzI1Y2Y5OC1kMmE3LTQ5ZDctOTRhOS02MWY5YTM2MGI4NmQiLCJlbWFpbCI6ImFobWVkLmFiZGVsYmFyeUBhbGFobHltb21rbi5jb20iLCJqdGkiOiI2Yjg3YTM3OC1kMTg5LTQyZDYtOTJjYS00MmI4ZWE4MjdmZTYiLCJpYXQiOjE3ODgzODAxNDUsImZ1bGxfbmFtZSI6ImFobWVkIG1vc3RhZmEgYWJkZWxiYXJ5IiwidGVuYW50X3NjaGVtYSI6InBsYXRmb3JtIiwidGVuYW50X2lkIjoiYTk4YTM5ZWQtMjA3MC00NzJmLTMyMzgtMDhkZWMyNGQ4OTk4IiwiaXNfc3VwZXJfYWRtaW5fdGVuYW50IjoidHJ1ZSIsInNlY3VyaXR5X3N0YW1wIjoiZDAzN2NjZGQtOWEyOS00ZGYzLTgyMGItN2Y0MTQ1ZWJiMDM5IiwiY29uY3VycmVudF9zZXNzaW9uX2lkIjoiYzhlYzM2ZTNkMzAyNDEzMmE3NTA4ZGM4NGE3MWUzMzAiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJBZG1pbiIsInBlcm1pc3Npb24iOlsiSGllcmFyY2h5QnVpbGRlci5WaWV3IiwiSGllcmFyY2h5QnVpbGRlci5DcmVhdGUiLCJIaWVyYXJjaHlCdWlsZGVyLkVkaXQiLCJIaWVyYXJjaHlCdWlsZGVyLkV4cG9ydCIsIlVzZXJNYW5hZ2VtZW50LlZpZXciLCJVc2VyTWFuYWdlbWVudC5DcmVhdGUiLCJVc2VyTWFuYWdlbWVudC5FZGl0IiwiVXNlck1hbmFnZW1lbnQuRXhwb3J0IiwiUm9sZU1hbmFnZW1lbnQuVmlldyIsIlJvbGVNYW5hZ2VtZW50LkNyZWF0ZSIsIlJvbGVNYW5hZ2VtZW50LkVkaXQiLCJSb2xlTWFuYWdlbWVudC5FeHBvcnQiLCJJbnZvaWNpbmdNYW5hZ2VtZW50LlZpZXciLCJJbnZvaWNpbmdNYW5hZ2VtZW50LkNyZWF0ZSIsIkludm9pY2luZ01hbmFnZW1lbnQuRWRpdCIsIkludm9pY2luZ01hbmFnZW1lbnQuRXhwb3J0IiwiU2VydmljZUNhdGFsb2cuVmlldyIsIlNlcnZpY2VDYXRhbG9nLkNyZWF0ZSBTZXJ2aWNlcyBNYW51YWxseSIsIlNlcnZpY2VDYXRhbG9nLkVkaXQiLCJTZXJ2aWNlQ2F0YWxvZy5FeHBvcnQiLCJTZXJ2aWNlQ2F0YWxvZy5TZXJ2aWNlcyBCdWxrIFVwbG9hZCIsIkZlZXNDb25maWd1cmF0aW9uLlZpZXciLCJGZWVzQ29uZmlndXJhdGlvbi5DcmVhdGUiLCJGZWVzQ29uZmlndXJhdGlvbi5FZGl0IiwiRmVlc0NvbmZpZ3VyYXRpb24uRXhwb3J0IiwiQmFua0luZm8uVmlldyIsIkJhbmtJbmZvLkNyZWF0ZSIsIkJhbmtJbmZvLkVkaXQiLCJCYW5rSW5mby5FeHBvcnQiLCJPcmdhbml6YXRpb25JbmZvLlZpZXciLCJPcmdhbml6YXRpb25JbmZvLkVkaXQiLCJPcmdhbml6YXRpb25JbmZvLkV4cG9ydCIsIk9yZ2FuaXphdGlvbkluZm8uQ29uZmlndXJlIiwiU2VydmljZUFzc2lnbm1lbnQuVmlldyIsIlNlcnZpY2VBc3NpZ25tZW50LkV4cG9ydCIsIlNlcnZpY2VBc3NpZ25tZW50LkFzc2lnbiBCYW5rIiwiU2VydmljZUFzc2lnbm1lbnQuQXNzaWduIE5vZGVzIiwiU2VydmljZUFzc2lnbm1lbnQuRWRpdCBCYW5rIiwiU2VydmljZUFzc2lnbm1lbnQuRWRpdCBOb2RlcyJdLCJleHAiOjE3ODgzODM3NDUsImlzcyI6Ikludm9pY2luZ1N5c3RlbSIsImF1ZCI6Ikludm9pY2luZ1N5c3RlbS5DbGllbnRzIn0.F_q37E8XdT1dNl5CYANGYBdnpb4zVTz7oHzIuJV9pBw",
+    "refreshToken": "nYs3yNJD8Y4/kPi/+qQVGdfQJdTErIoCyYS+CPfm2jr3x2Op4o0/e+Lusxtute0OOLdtdtOxe2da+aMBfQhMvg==",
+    "accessTokenExpiresAt": "2026-09-02T21:15:45.6020621Z",
+    "refreshTokenExpiresAt": "2026-09-09T20:15:45.5937211Z",
     "userId": "8325cf98-d2a7-49d7-94a9-61f9a360b86d",
     "email": "ahmed.abdelbary@alahlymomkn.com",
     "fullName": "ahmed mostafa abdelbary",
@@ -314,46 +314,48 @@
         "isSuperAdmin": true
     }
 }
-[DEBUG] 02-09-2026 18:14:29 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['DisplayName']
-[DEBUG] 02-09-2026 18:14:29 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['Slug']
-[DEBUG] 02-09-2026 18:14:29 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['mobileNumber']
-[DEBUG] 02-09-2026 18:14:29 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['landLineNumber']
-[DEBUG] 02-09-2026 18:14:29 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['contactEmail']
-[DEBUG] 02-09-2026 18:14:29 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['contactAddress']
-[DEBUG] 02-09-2026 18:14:29 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['firstDayOfWeek']
-[DEBUG] 02-09-2026 18:14:29 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['dateFormat']
-[DEBUG] 02-09-2026 18:14:29 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['paymentMethodType']
-[INFO] 02-09-2026 18:14:33 [main] [com.invoicing.APIs.userManagementAPI] - {
-    "id": "7d958a04-c1d6-46fa-5d05-08df08f4ecff",
-    "slug": "nnteetnas",
-    "displayName": "automation 20260902181419",
-    "contactEmail": "ahmed@alahly.com",
-    "mobileNumber": "01278021209",
-    "landlineNumber": null,
-    "contactAddress": "CAIRO",
-    "logoUrl": "http://10.140.105.111:30001/uploads/organization-logos/8081ec98-ea5d-4f38-865b-c503741c2e51.png",
-    "status": "Active",
-    "createdAt": "2026-09-02T18:13:55.9088513+03:00",
-    "firstDayOfWeek": 1,
-    "dateFormat": 1
+[DEBUG] 02-09-2026 23:16:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['DisplayName']
+[DEBUG] 02-09-2026 23:16:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['Slug']
+[DEBUG] 02-09-2026 23:16:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['mobileNumber']
+[DEBUG] 02-09-2026 23:16:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['landLineNumber']
+[DEBUG] 02-09-2026 23:16:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['contactEmail']
+[DEBUG] 02-09-2026 23:16:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['contactAddress']
+[DEBUG] 02-09-2026 23:16:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['firstDayOfWeek']
+[DEBUG] 02-09-2026 23:16:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['dateFormat']
+[DEBUG] 02-09-2026 23:16:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['paymentMethodType']
+[INFO] 02-09-2026 23:16:25 [main] [com.invoicing.APIs.userManagementAPI] - {
+    "title": "DuplicatedOrganizationKey",
+    "status": 400,
+    "detail": "Duplicate Organization Code|An organization with this Code already exists. Please use a different Code."
 }
-[DEBUG] 02-09-2026 18:14:33 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['loginData']['email']
-[DEBUG] 02-09-2026 18:14:33 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['loginData']['password']
-[INFO] 02-09-2026 18:14:33 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.id: emailField Successfully
-[INFO] 02-09-2026 18:14:33 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.id: passwordField Successfully
-[INFO] 02-09-2026 18:14:33 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.id: submitButton Successfully
-[DEBUG] 02-09-2026 18:14:33 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['expectedURL']
-[INFO] 02-09-2026 18:14:34 [main] [com.invoicing.Utils.Actions.BrowserActions] - Current URL : http://10.140.105.111:30002/home
-[INFO] 02-09-2026 18:14:34 [main] [com.invoicing.Utils.Actions.BrowserActions] - Current URL : http://10.140.105.111:30002/home
-[INFO] 02-09-2026 18:14:34 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.cssSelector: li[routerlink="/hierarchy-builder"] Successfully
-[INFO] 02-09-2026 18:14:35 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.cssSelector: button[routerlink="add"] Successfully
-[INFO] 02-09-2026 18:14:35 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //button[contains(text(),'New Hierarchy')] Successfully
-[DEBUG] 02-09-2026 18:14:35 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['DisplayName']
-[INFO] 02-09-2026 18:14:36 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //span[contains(text(),'Select organization name')] Successfully
-[INFO] 02-09-2026 18:14:36 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //span[.=' automation 20260902181419 '] Successfully
-[INFO] 02-09-2026 18:14:36 [main] [com.invoicing.Media.ScreenShotManager] - ===== takeScreenShot() called =====
-[INFO] 02-09-2026 18:14:36 [main] [com.invoicing.Media.ScreenShotManager] - Driver = EdgeDriver: MicrosoftEdge on windows (1cdc34d4aa2f3199690b4686d45f110f)
-[INFO] 02-09-2026 18:14:36 [main] [com.invoicing.Media.ScreenShotManager] - Temporary Screenshot = C:\Users\AHMED~1.ABD\AppData\Local\Temp\screenshot5887278398426767387.png
-[INFO] 02-09-2026 18:14:36 [main] [com.invoicing.Media.ScreenShotManager] - Final Path = C:\Users\Ahmed.Abdelbary\Desktop\POS Revamp Automation\Invoicing\test-output\screenshots\Passed-addNewHierarchy-20260902181436.png
-[INFO] 02-09-2026 18:14:36 [main] [com.invoicing.Media.ScreenShotManager] - Saved Screenshot = C:\Users\Ahmed.Abdelbary\Desktop\POS Revamp Automation\Invoicing\test-output\screenshots\Passed-addNewHierarchy-20260902181436.png
-[INFO] 02-09-2026 18:14:36 [main] [com.invoicing.Media.ScreenShotManager] - Captured Screenshot successfully
+[DEBUG] 02-09-2026 23:16:25 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['loginData']['email']
+[DEBUG] 02-09-2026 23:16:25 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['loginData']['password']
+[INFO] 02-09-2026 23:16:25 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.id: emailField Successfully
+[INFO] 02-09-2026 23:16:26 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.id: passwordField Successfully
+[INFO] 02-09-2026 23:16:26 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.id: submitButton Successfully
+[DEBUG] 02-09-2026 23:16:26 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['expectedURL']
+[INFO] 02-09-2026 23:16:27 [main] [com.invoicing.Utils.Actions.BrowserActions] - Current URL : http://10.140.105.111:30002/home
+[INFO] 02-09-2026 23:16:27 [main] [com.invoicing.Utils.Actions.BrowserActions] - Current URL : http://10.140.105.111:30002/home
+[INFO] 02-09-2026 23:16:28 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.cssSelector: li[routerlink="/hierarchy-builder"] Successfully
+[INFO] 02-09-2026 23:16:29 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.cssSelector: button[routerlink="add"] Successfully
+[DEBUG] 02-09-2026 23:16:29 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Retrying click - Stale element: By.xpath: //button[contains(text(),'New Hierarchy')]
+[INFO] 02-09-2026 23:16:30 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //button[contains(text(),'New Hierarchy')] Successfully
+[DEBUG] 02-09-2026 23:16:30 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['OrgInfo']['DisplayName']
+[ERROR] 02-09-2026 23:16:30 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Failed to scroll: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=151.0.4129.59)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Build info: version: '4.45.0', revision: 'cd6a3cd cd6a3cdfca6970f62e5bc8344109d0fe0e2af05e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [3374b4f81391428392d772ce6ac0a281, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.1C76EF04F69996E000C4297B23D8CE9D.d.A9FCB14A54089E103C56EBAFB79EE574.e.84}], script=arguments[0].scrollIntoView({behavior:'auto',block:'center',inline:'center'});}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 151.0.4129.59, fedcm:accounts: true, goog:processID: 8096, ms:edgeOptions: {debuggerAddress: localhost:63756}, msedge: {msedgedriverVersion: 151.0.4129.107 (419e77616b4..., userDataDir: C:\Users\AHMED~1.ABD\AppDat...}, networkConnectionEnabled: false, pageLoadStrategy: eager, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63756/devtoo..., se:cdpVersion: 151.0.4129.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3374b4f81391428392d772ce6ac0a281
+[DEBUG] 02-09-2026 23:16:30 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Retrying click - Stale element: By.xpath: //span[contains(text(),'Select organization name')]
+[INFO] 02-09-2026 23:16:30 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //span[contains(text(),'Select organization name')] Successfully
+[ERROR] 02-09-2026 23:16:40 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Failed to Find Element: By.xpath: //span[.=' automation 20260902231601 ']
+[INFO] 02-09-2026 23:16:40 [main] [com.invoicing.Media.ScreenShotManager] - ===== takeScreenShot() called =====
+[INFO] 02-09-2026 23:16:40 [main] [com.invoicing.Media.ScreenShotManager] - Driver = EdgeDriver: MicrosoftEdge on windows (3374b4f81391428392d772ce6ac0a281)
+[INFO] 02-09-2026 23:16:41 [main] [com.invoicing.Media.ScreenShotManager] - Temporary Screenshot = C:\Users\AHMED~1.ABD\AppData\Local\Temp\screenshot5112305805193746047.png
+[INFO] 02-09-2026 23:16:41 [main] [com.invoicing.Media.ScreenShotManager] - Final Path = C:\Users\Ahmed.Abdelbary\Desktop\POS Revamp Automation\Invoicing\test-output\screenshots\Failed-addNewHierarchy-20260902231641.png
+[INFO] 02-09-2026 23:16:41 [main] [com.invoicing.Media.ScreenShotManager] - Saved Screenshot = C:\Users\Ahmed.Abdelbary\Desktop\POS Revamp Automation\Invoicing\test-output\screenshots\Failed-addNewHierarchy-20260902231641.png
+[INFO] 02-09-2026 23:16:41 [main] [com.invoicing.Media.ScreenShotManager] - Captured Screenshot successfully
