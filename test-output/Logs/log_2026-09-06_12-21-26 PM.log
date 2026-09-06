@@ -1,0 +1,5 @@
+[INFO] 06-09-2026 12:21:26 [main] [com.invoicing.CustomListeners.TestNgListeners] - Test successful : addNewHierarchy Passed 
+[DEBUG] 06-09-2026 12:21:26 [main] [com.invoicing.DB.DBManager] - Deleted OrgName: automation 20260906122109 | Rows affected: 1
+[INFO] 06-09-2026 12:21:26 [main] [com.invoicing.DB.DBManager] - DB Connection Closed
+[INFO] 06-09-2026 12:21:59 [main] [com.invoicing.FileUtils] - Target File Path C:\Users\Ahmed.Abdelbary\Desktop\POS Revamp Automation\Invoicing\test-output\reports\index.html was renamed to AllureReport_20260906122159.html 
+[INFO] 06-09-2026 12:21:59 [main] [com.invoicing.CustomListeners.TestNgListeners] - Allure Report is generated

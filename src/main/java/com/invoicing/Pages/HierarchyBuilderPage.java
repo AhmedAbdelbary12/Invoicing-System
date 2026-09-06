@@ -11,7 +11,7 @@ public class HierarchyBuilderPage {
     private final By OrganizationName = By.xpath("//div[@_ngcontent-ng-c2447438634] //div[@_ngcontent-ng-c2447438634][2]//div[2]");
     private final By addLevelButton = By.xpath("//button[.='Add Level']");
     private final By addLevelName = By.xpath("(//*[@placeholder=\"Add Level\"])[2]");
-    private final By addNote = By.xpath("//section[@_ngcontent-ng-c671773064] /div[2]/div[2]/div/div/input");
+    private final By addNode = By.xpath("(//*[@placeholder=\"Add Node\"])");
     private final By createButton = By.xpath("//div[@_ngcontent-ng-c1011832936]/button[2]");
     private final By selectOrganizationField = By.xpath("//span[contains(text(),'Select organization name')]");
     // Locators
@@ -46,9 +46,15 @@ public class HierarchyBuilderPage {
     }
 
     @Step("User Click On Add Level")
-    public HierarchyBuilderPage clickOnAddLevel(String levelName) {
+    public HierarchyBuilderPage typeLevelName(String levelName) {
         driver.element().click(addLevelButton);
         driver.element().type(addLevelName, levelName);
+        return this;
+    }
+
+    @Step("User Click On Add Level")
+    public HierarchyBuilderPage typeNode(String node) {
+        driver.element().type(addNode, node);
         return this;
     }
 

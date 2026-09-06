@@ -1,0 +1,40 @@
+[INFO] 06-09-2026 12:16:01 [main] [com.invoicing.CustomListeners.TestNgListeners] - Test successful : addAdminRole Passed 
+[DEBUG] 06-09-2026 12:16:01 [main] [com.invoicing.DB.DBManager] - Deleted Role: ADMIN AUTOMATION 20260906121555 | Rows affected: 1
+[INFO] 06-09-2026 12:16:02 [main] [com.invoicing.Drivers.GUIDriver] - Starting driver for BrowserCHROME
+[INFO] 06-09-2026 12:16:09 [main] [com.invoicing.Utils.Actions.BrowserActions] - Navigated To URL : http://10.140.105.111:30002/a98a39ed-2070-472f-3238-08dec24d8998/auth/login
+[DEBUG] 06-09-2026 12:16:10 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.id: emailField
+[DEBUG] 06-09-2026 12:16:10 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.id: emailField
+[INFO] 06-09-2026 12:16:11 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.id: emailField Successfully
+[INFO] 06-09-2026 12:16:12 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.id: passwordField Successfully
+[INFO] 06-09-2026 12:16:12 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.id: submitButton Successfully
+[INFO] 06-09-2026 12:16:13 [main] [com.invoicing.Utils.Actions.BrowserActions] - Current URL : http://10.140.105.111:30002/home
+[INFO] 06-09-2026 12:16:13 [main] [com.invoicing.Utils.Actions.BrowserActions] - Current URL : http://10.140.105.111:30002/home
+[INFO] 06-09-2026 12:16:13 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.cssSelector: li[routerlink="/roles"] Successfully
+[DEBUG] 06-09-2026 12:16:13 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:16:13 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:16:13 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:16:14 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:16:14 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:16:14 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:16:14 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:16:14 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:16:14 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:16:14 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:16:15 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:16:15 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:16:15 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:16:15 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:16:15 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[INFO] 06-09-2026 12:16:17 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.cssSelector: [routerlink="add"] Successfully
+[DEBUG] 06-09-2026 12:16:18 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [formcontrolname="roleName"]
+[INFO] 06-09-2026 12:16:19 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.cssSelector: [formcontrolname="roleName"] Successfully
+[INFO] 06-09-2026 12:16:20 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //*[@formcontrolname="organizationName"] Successfully
+[INFO] 06-09-2026 12:16:20 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //span[.=' abu dahbi bank '] Successfully
+[INFO] 06-09-2026 12:16:21 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.cssSelector: button[type="submit"] Successfully
+[INFO] 06-09-2026 12:16:21 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Got Text from Element: By.xpath: //div[.=' At least one permission must be selected in one module '] Successfully
+[INFO] 06-09-2026 12:16:21 [main] [com.invoicing.Media.ScreenShotManager] - ===== takeScreenShot() called =====
+[INFO] 06-09-2026 12:16:21 [main] [com.invoicing.Media.ScreenShotManager] - Driver = ChromeDriver: chrome on windows (d948f643c74447c633e79f677284c268)
+[INFO] 06-09-2026 12:16:21 [main] [com.invoicing.Media.ScreenShotManager] - Temporary Screenshot = C:\Users\AHMED~1.ABD\AppData\Local\Temp\screenshot4606220068948172653.png
+[INFO] 06-09-2026 12:16:21 [main] [com.invoicing.Media.ScreenShotManager] - Final Path = C:\Users\Ahmed.Abdelbary\Desktop\POS Revamp Automation\Invoicing\test-output\screenshots\Passed-addingRoleWithoutSelectionRoles-20260906121621.png
+[INFO] 06-09-2026 12:16:21 [main] [com.invoicing.Media.ScreenShotManager] - Saved Screenshot = C:\Users\Ahmed.Abdelbary\Desktop\POS Revamp Automation\Invoicing\test-output\screenshots\Passed-addingRoleWithoutSelectionRoles-20260906121621.png
+[INFO] 06-09-2026 12:16:21 [main] [com.invoicing.Media.ScreenShotManager] - Captured Screenshot successfully

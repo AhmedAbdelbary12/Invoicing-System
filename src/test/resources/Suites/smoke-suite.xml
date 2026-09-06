@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Invoicing - Smoke Suite">
+    <test name="Invoicing - Smoke Test">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.invoicingTests.LoginTest"/>
+            <class name="com.invoicingTests.RolesTest"/>
+            <class name="com.invoicingTests.HierarchyBuilderTest"/>
+        </classes>
+    </test>
+</suite>

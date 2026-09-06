@@ -41,12 +41,14 @@ public class RolesPage {
     private final By filterRoleName = By.id("globalSearchInput");
     private final By filterApplyButton = By.xpath("//button[@_ngcontent-ng-c1977091539 and .=' Apply ']");
     private final By numberOfElementsInViewPage = By.xpath("//tbody/tr");
-    private final By activationToggle = By.cssSelector("label[_ngcontent-ng-c509278831]");
+    private final By activationToggle = By.cssSelector(".toggle-input[_ngcontent-ng-c509278831]:checked + .toggle-label[_ngcontent-ng-c509278831] ");
     private final By deactivateButton = By.xpath("//button[@_ngcontent-ng-c3919432026 and .=' Deactivate ']");
+    public NavigatorMenuPage navigatorMenuPage;
     GUIDriver driver;
 
     public RolesPage(GUIDriver driver) {
         this.driver = driver;
+        this.navigatorMenuPage = new NavigatorMenuPage(driver);
     }
 
     // Actions
@@ -271,6 +273,7 @@ public class RolesPage {
 
     @Step("User click on Filter Toggle to expand the filter section")
     public RolesPage clickOnFilterToggle() {
+        LogsManager.debug("Current URL before filter toggle: " + driver.get().getCurrentUrl());
         driver.element().click(filterToggle);
         return this;
     }
@@ -288,7 +291,7 @@ public class RolesPage {
     }
 
     @Step("Verify that Number of records appear after Filtration is 1 and role is filtered successfully")
-    public void verifyRoleIsFiltered(String ExpectedRoleName) {
+    public RolesPage verifyRoleIsFiltered(String ExpectedRoleName) {
         WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(10));
         wait.until(d -> {
             List<WebElement> roles = d.findElements(numberOfElementsInViewPage);
@@ -308,37 +311,36 @@ public class RolesPage {
             LogsManager.error("More than one role is filtered");
 
         }
+        return this;
     }
 
     @Step("User Click on Activation Toggle")
     public RolesPage clickOnActivationToggle() {
-        WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.and(ExpectedConditions.presenceOfElementLocated(activationToggle), ExpectedConditions.elementToBeClickable(activationToggle), ExpectedConditions.visibilityOfElementLocated(activationToggle)));
+        // WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(10));
+        //wait.until(ExpectedConditions.and(ExpectedConditions.presenceOfElementLocated(activationToggle), ExpectedConditions.elementToBeClickable(activationToggle), ExpectedConditions.visibilityOfElementLocated(activationToggle)));
         driver.element().click(activationToggle);
         return this;
     }
 
     @Step("User Click on Deactivate Button")
     public RolesPage clickOnDeactivateButton() {
-        WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.and(ExpectedConditions.presenceOfElementLocated(deactivateButton),
-                ExpectedConditions.elementToBeClickable(deactivateButton),
-                ExpectedConditions.visibilityOfElementLocated(deactivateButton)));
+        // WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(10));
+        //wait.until(ExpectedConditions.and(ExpectedConditions.presenceOfElementLocated(deactivateButton),
+        //      ExpectedConditions.elementToBeClickable(deactivateButton),
+        //    ExpectedConditions.visibilityOfElementLocated(deactivateButton)));
         driver.element().click(deactivateButton);
         return this;
     }
 
     @Step("Verify that Role Became InActive")
     public void verifyRoleIsInActive(String roleName, String ExpectedRole) {
-        WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(15));
+        // WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(15));
         By statusLocator = By.xpath("//td[normalize-space(.)='" + roleName + "']//following-sibling::td//span[contains(normalize-space(.),'Inactive')]");
-        wait.until(ExpectedConditions.visibilityOfElementLocated(statusLocator));
+        //wait.until(ExpectedConditions.visibilityOfElementLocated(statusLocator));
 
         String ActualRole = driver.element().getText(statusLocator);
         driver.softAssertion().Equal(ActualRole, ExpectedRole, "Role Status is not inactive.");
     }
-
-    // Dynamic Locator
 
 
 }

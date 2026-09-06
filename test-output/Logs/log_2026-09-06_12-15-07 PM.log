@@ -1,0 +1,31 @@
+[DEBUG] 06-09-2026 12:15:07 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Ahmed.Abdelbary\Desktop\POS Revamp Automation\Invoicing\src\test\resources\Suites\master-suite.xml"
+[INFO] 06-09-2026 12:15:07 [main] [org.testng.internal.Utils] - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+[INFO] 06-09-2026 12:15:08 [main] [com.invoicing.CustomListeners.TestNgListeners] - Test Execution Started
+[INFO] 06-09-2026 12:15:08 [main] [com.invoicing.CustomListeners.TestNgListeners] - Directories are cleaned
+[INFO] 06-09-2026 12:15:08 [main] [com.invoicing.FileUtils] - Directory is Created Successfully
+[INFO] 06-09-2026 12:15:08 [main] [com.invoicing.CustomListeners.TestNgListeners] - Test Execution are created
+[INFO] 06-09-2026 12:15:08 [main] [com.invoicing.CustomListeners.TestNgListeners] - Properties files are loaded
+[INFO] 06-09-2026 12:15:08 [main] [com.invoicing.Utils.Reports.AllureEnvironmentManager] - Allure Environment Manager has been set
+[WARN] 06-09-2026 12:15:09 [main] [com.invoicing.Utils.Reports.AllureBinaryManager$LazyHolder] - Couldn't resolve latest Allure version. Using default 2.34.1
+[WARN] 06-09-2026 12:15:09 [main] [com.invoicing.Utils.Reports.AllureBinaryManager] - Downloading Allure Report from 2.34.1
+[INFO] 06-09-2026 12:15:09 [main] [com.invoicing.Utils.Reports.AllureBinaryManager] - Allure Binary Already exists
+[INFO] 06-09-2026 12:15:09 [main] [com.invoicing.CustomListeners.TestNgListeners] - Allure Environment is set
+[INFO] 06-09-2026 12:15:09 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Ahmed.Abdelbary\Desktop\POS Revamp Automation\Invoicing\src\test\resources\Suites\smoke-suite.xml
+
+[INFO] 06-09-2026 12:15:09 [main] [com.invoicing.Drivers.GUIDriver] - Starting driver for BrowserCHROME
+[INFO] 06-09-2026 12:15:13 [main] [com.invoicing.Utils.Actions.BrowserActions] - Navigated To URL : http://10.140.105.111:30002/a98a39ed-2070-472f-3238-08dec24d8998/auth/login
+[DEBUG] 06-09-2026 12:15:13 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['loginData']['email']
+[DEBUG] 06-09-2026 12:15:13 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['loginData']['password']
+[INFO] 06-09-2026 12:15:13 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.id: emailField Successfully
+[INFO] 06-09-2026 12:15:13 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.id: passwordField Successfully
+[INFO] 06-09-2026 12:15:14 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.id: submitButton Successfully
+[DEBUG] 06-09-2026 12:15:14 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['expectedURL']
+[INFO] 06-09-2026 12:15:16 [main] [com.invoicing.Utils.Actions.BrowserActions] - Current URL : http://10.140.105.111:30002/home
+[INFO] 06-09-2026 12:15:16 [main] [com.invoicing.Utils.Actions.BrowserActions] - Current URL : http://10.140.105.111:30002/home
+[INFO] 06-09-2026 12:15:16 [main] [com.invoicing.Media.ScreenShotManager] - ===== takeScreenShot() called =====
+[INFO] 06-09-2026 12:15:16 [main] [com.invoicing.Media.ScreenShotManager] - Driver = ChromeDriver: chrome on windows (4cb49c0bc5f782be0e4ba87a4c2f6058)
+[INFO] 06-09-2026 12:15:16 [main] [com.invoicing.Media.ScreenShotManager] - Temporary Screenshot = C:\Users\AHMED~1.ABD\AppData\Local\Temp\screenshot18416320089586700761.png
+[INFO] 06-09-2026 12:15:16 [main] [com.invoicing.Media.ScreenShotManager] - Final Path = C:\Users\Ahmed.Abdelbary\Desktop\POS Revamp Automation\Invoicing\test-output\screenshots\Passed-ValidLoginTC-20260906121516.png
+[INFO] 06-09-2026 12:15:16 [main] [com.invoicing.Media.ScreenShotManager] - Saved Screenshot = C:\Users\Ahmed.Abdelbary\Desktop\POS Revamp Automation\Invoicing\test-output\screenshots\Passed-ValidLoginTC-20260906121516.png
+[INFO] 06-09-2026 12:15:16 [main] [com.invoicing.Media.ScreenShotManager] - Captured Screenshot successfully

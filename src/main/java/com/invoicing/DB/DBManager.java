@@ -39,6 +39,19 @@ public class DBManager {
         }
     }
 
+    public static void deleteOrgInfo(String OrgName) {
+        try {
+            String query = "Delete From [Invoicing].[platform].[Tenants] where DisplayName = ?";
+            PreparedStatement stmt = connection.prepareStatement(query);
+            stmt.setString(1, OrgName);
+            int rows = stmt.executeUpdate();
+            LogsManager.debug("Deleted OrgName: " + OrgName + " | Rows affected: " + rows);
+
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     public static void closeConnection() {
         try {
             if (connection != null && !connection.isClosed()) {
