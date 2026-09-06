@@ -99,6 +99,7 @@ public class userManagementAPI {
         return this;
     }
 
+    @Step("Organisation Information is Created Successfully Through API Level")
     public userManagementAPI createOrg(String DisplayName, String Slug, String MobileNumber, String LandlineNumber,
                                        String ContactEmail, String ContactAddress, String FirstDayOfWeek, String DateFormat,
                                        String SelectedPaymentMethodTypes, File Logo) {
@@ -129,12 +130,21 @@ public class userManagementAPI {
                 .multiPart("FirstDayOfWeek", FirstDayOfWeek)
                 .multiPart("DateFormat", DateFormat)
                 .multiPart("SelectedPaymentMethodTypes", SelectedPaymentMethodTypes)
-                // ✅ Logo كـ File
                 .multiPart("Logo", Logo, "image/png")
                 .post(createOrg_EndPoint);
 
-        token = response.jsonPath().getString("accessToken");
+        LogsManager.debug("DisplayName " + DisplayName);
+        LogsManager.debug("Slug " + Slug);
+        LogsManager.debug("MobileNumber " + MobileNumber);
+        LogsManager.debug("LandlineNumber " + LandlineNumber);
+        LogsManager.debug("ContactEmail " + ContactEmail);
+        LogsManager.debug("ContactAddress " + ContactAddress);
+        LogsManager.debug("FirstDayOfWeek " + FirstDayOfWeek);
+        LogsManager.debug("DateFormat " + DateFormat);
+        LogsManager.debug("SelectedPaymentMethodTypes " + SelectedPaymentMethodTypes);
 
+
+        token = response.jsonPath().getString("accessToken");
         LogsManager.info(response.asPrettyString());
         return this;
     }
@@ -146,6 +156,12 @@ public class userManagementAPI {
     @Step("Validate that Account is created")
     public userManagementAPI validateUserIsLoggedIn() {
         softAssertion.checkStatusCode(response.getStatusCode(), 200, "Expected status code is 200");
+        return this;
+    }
+
+    @Step("Validate that Organisation is created")
+    public userManagementAPI validateOrgIsCreated() {
+        softAssertion.checkStatusCode(response.getStatusCode(), 201, "Expected status code is 200");
         return this;
     }
 

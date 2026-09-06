@@ -3,7 +3,6 @@ package com.invoicing.Utils.Actions;
 import com.invoicing.Utils.Logs.LogsManager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -214,25 +213,13 @@ public class ActionBotsFluentWait {
         }
     }
 
-    /*
+
     protected WebElement findElement(By by) {
         try {
-            //return driver.findElement(by);
-            return wait.until(ExpectedConditions.presenceOfElementLocated(by));
-
+            // return wait.until(ExpectedConditions.presenceOfElementLocated(by));
+            return driver.findElement(by);
         } catch (Exception e) {
-            LogsManager.error("Failed to Find Element");
-            return null;
-        }
-    }
-
-     */
-    // ✅ findElement مرة واحدة بس
-    protected WebElement findElement(By by) {
-        try {
-            return wait.until(ExpectedConditions.presenceOfElementLocated(by));
-        } catch (Exception e) {
-            LogsManager.error("Failed to Find Element: " + by);
+            LogsManager.debug("Element not yet present, retrying: " + by);
             return null;
         }
     }

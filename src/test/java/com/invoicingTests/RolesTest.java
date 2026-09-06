@@ -21,6 +21,7 @@ import static com.invoicing.Utils.DataManagement.PropertyReader.getProperty;
 @Story("Roles Functionality")
 @Feature("Roles Feature")
 @Owner("Ahmed Mostafa")
+@Test(groups = {"regression"})
 public class RolesTest extends BaseTest {
     private final List<String> deleteRole = new ArrayList<>();
     //String TIME_STAMP = String.valueOf(TimeManager.getTimeStamp());
@@ -34,18 +35,19 @@ public class RolesTest extends BaseTest {
         return TimeManager.getUniqueSimpleTimeStamp();
     }
 
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     public void beforeClass() {
         jsonReader = new JSONReader("roles-data");
         DBManager.connect();
     }
 
-    @AfterClass
+    @AfterClass(alwaysRun = true)
     public void AfterClass() {
         DBManager.closeConnection();
     }
 
 
+    /*
     @AfterMethod(alwaysRun = true)
     public void teardown() {
         SoftAssertion.assertAll();
@@ -55,7 +57,27 @@ public class RolesTest extends BaseTest {
         deleteRole.clear();
         driver.quitDriver();
     }
+*/
 
+    @AfterMethod(alwaysRun = true)
+    public void teardown() {
+        try {
+            SoftAssertion.assertAll();
+        } finally {
+            try {
+                for (String roleName : deleteRole) {
+                    try {
+                        DBManager.deleteRole(roleName);
+                    } catch (Exception e) {
+                        LogsManager.error("Failed to delete role: " + roleName + " -> " + e.getMessage());
+                    }
+                }
+            } finally {
+                deleteRole.clear();
+                driver.quitDriver();
+            }
+        }
+    }
 
     @BeforeMethod(alwaysRun = true)
     @Step("User Navigated to Login Page")
@@ -64,7 +86,7 @@ public class RolesTest extends BaseTest {
         driver.browser().navigate(getProperty("baseURL"));
     }
 
-    @Test(priority = 1)
+    @Test(priority = 1, groups = {"smoke"})
     @Description("User Add Admin Role that have all permissions")
     public void addAdminRole() {
         String TIME_STAMP = TimeManager.getSimpleTimeStamp();
@@ -476,6 +498,12 @@ public class RolesTest extends BaseTest {
                 .clickOnUpdateButton()
                 .clickOnApplyButton()
                 .clickOnOkButton()
+                .navigatorMenuPage
+                .NavigateToRolesPagePage()
+                .clickOnFilterToggle()
+                .enterRoleNameInFilter(jsonReader.getJsonData("roleName") + TIME_STAMP)
+                .clickOnFilterApplyButton()
+                .verifyRoleIsFiltered(jsonReader.getJsonData("roleName") + TIME_STAMP)
                 .verifyRoleIsInActive(
                         jsonReader.getJsonData("roleName") + TIME_STAMP
                         , jsonReader.getJsonData("InActiveStatus"));

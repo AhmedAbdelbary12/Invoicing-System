@@ -17,8 +17,9 @@ import static com.invoicing.Utils.DataManagement.PropertyReader.getProperty;
 @Story("Login Functionality")
 @Feature("Login Feature")
 @Owner("Ahmed Mostafa")
+@Test(groups = {"regression"})
 public class LoginTest extends BaseTest {
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     public void beforeClass() {
         jsonReader = new JSONReader("register-data");
     }
@@ -37,7 +38,7 @@ public class LoginTest extends BaseTest {
     }
 
 
-    @Test(priority = 1)
+    @Test(priority = 1, groups = {"smoke"})
     @Description("Verify User Can Login Successfully")
     public void ValidLoginTC() {
         new LoginPage(driver)

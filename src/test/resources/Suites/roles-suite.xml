@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Invoicing - Roles Suite" verbose="1">
+    <test name="Roles Tests">
+        <classes>
+            <class name="com.invoicingTests.RolesTest"/>
+        </classes>
+    </test>
+</suite>

@@ -17,5 +17,9 @@
     "dateFormat": "1",
     "paymentMethodType": "1",
     "logoPath": "src/main/resources/logo.png"
+  },
+  "HierarchyInfo": {
+    "Level1Name": "Sport Type",
+    "Node": "FootBall"
   }
 }

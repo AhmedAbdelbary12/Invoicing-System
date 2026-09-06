@@ -1,0 +1,32 @@
+[INFO] 06-09-2026 12:16:41 [main] [com.invoicing.CustomListeners.TestNgListeners] - Test successful : addingRoleWithoutAddingRoleName Passed 
+[INFO] 06-09-2026 12:16:42 [main] [com.invoicing.Drivers.GUIDriver] - Starting driver for BrowserCHROME
+[INFO] 06-09-2026 12:16:47 [main] [com.invoicing.Utils.Actions.BrowserActions] - Navigated To URL : http://10.140.105.111:30002/a98a39ed-2070-472f-3238-08dec24d8998/auth/login
+[DEBUG] 06-09-2026 12:16:48 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.id: emailField
+[INFO] 06-09-2026 12:16:49 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.id: emailField Successfully
+[INFO] 06-09-2026 12:16:50 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.id: passwordField Successfully
+[INFO] 06-09-2026 12:16:50 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.id: submitButton Successfully
+[INFO] 06-09-2026 12:16:53 [main] [com.invoicing.Utils.Actions.BrowserActions] - Current URL : http://10.140.105.111:30002/home
+[INFO] 06-09-2026 12:16:53 [main] [com.invoicing.Utils.Actions.BrowserActions] - Current URL : http://10.140.105.111:30002/home
+[INFO] 06-09-2026 12:16:53 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.cssSelector: li[routerlink="/roles"] Successfully
+[DEBUG] 06-09-2026 12:16:53 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:16:53 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:16:53 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:16:53 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:16:54 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:16:54 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[INFO] 06-09-2026 12:16:55 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.cssSelector: [routerlink="add"] Successfully
+[DEBUG] 06-09-2026 12:16:55 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [formcontrolname="roleName"]
+[INFO] 06-09-2026 12:16:56 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.cssSelector: [formcontrolname="roleName"] Successfully
+[INFO] 06-09-2026 12:16:56 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: (//div[@_ngcontent-ng-c3576967370]/h5[.='Hierarchy Builder']//following::input)[1] Successfully
+[INFO] 06-09-2026 12:16:56 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: (//div[@_ngcontent-ng-c3576967370]/h5[.='User Management']//following::input)[1] Successfully
+[INFO] 06-09-2026 12:16:57 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: (//div[@_ngcontent-ng-c3576967370]/h5[.='Role Management']//following::input)[1] Successfully
+[INFO] 06-09-2026 12:16:57 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: (//div[@_ngcontent-ng-c3576967370]/h5[.='Invoicing Management']//following::input)[1] Successfully
+[INFO] 06-09-2026 12:16:57 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: (//div[@_ngcontent-ng-c3576967370]/h5[.='Service Catalog']//following::input)[1] Successfully
+[INFO] 06-09-2026 12:16:58 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.cssSelector: button[type="submit"] Successfully
+[INFO] 06-09-2026 12:16:58 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Got Text from Element: By.xpath: //span[.='Organization is required'] Successfully
+[INFO] 06-09-2026 12:16:58 [main] [com.invoicing.Media.ScreenShotManager] - ===== takeScreenShot() called =====
+[INFO] 06-09-2026 12:16:58 [main] [com.invoicing.Media.ScreenShotManager] - Driver = ChromeDriver: chrome on windows (0909cab75615f1c67382fb228d7c8301)
+[INFO] 06-09-2026 12:16:58 [main] [com.invoicing.Media.ScreenShotManager] - Temporary Screenshot = C:\Users\AHMED~1.ABD\AppData\Local\Temp\screenshot8603221192897595665.png
+[INFO] 06-09-2026 12:16:58 [main] [com.invoicing.Media.ScreenShotManager] - Final Path = C:\Users\Ahmed.Abdelbary\Desktop\POS Revamp Automation\Invoicing\test-output\screenshots\Passed-addingRoleWithoutAddingOrganization-20260906121658.png
+[INFO] 06-09-2026 12:16:58 [main] [com.invoicing.Media.ScreenShotManager] - Saved Screenshot = C:\Users\Ahmed.Abdelbary\Desktop\POS Revamp Automation\Invoicing\test-output\screenshots\Passed-addingRoleWithoutAddingOrganization-20260906121658.png
+[INFO] 06-09-2026 12:16:58 [main] [com.invoicing.Media.ScreenShotManager] - Captured Screenshot successfully

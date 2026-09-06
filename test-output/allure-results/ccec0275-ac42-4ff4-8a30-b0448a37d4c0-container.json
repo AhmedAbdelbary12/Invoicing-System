@@ -1,0 +1,1 @@
+{"uuid":"ccec0275-ac42-4ff4-8a30-b0448a37d4c0","name":"com.invoicingTests.LoginTest","children":["b31240cb-af20-4db0-ba71-7195c22c089b"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1788686109372,"stop":1788686109389}],"afters":[],"start":1788686109321,"stop":1788686126602}

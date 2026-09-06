@@ -1,0 +1,48 @@
+[INFO] 06-09-2026 12:17:43 [main] [com.invoicing.CustomListeners.TestNgListeners] - Test successful : addSameRoleTwice Passed 
+[DEBUG] 06-09-2026 12:17:43 [main] [com.invoicing.DB.DBManager] - Deleted Role: ADMIN AUTOMATION 20260906121509 | Rows affected: 1
+[INFO] 06-09-2026 12:17:46 [main] [com.invoicing.Drivers.GUIDriver] - Starting driver for BrowserCHROME
+[INFO] 06-09-2026 12:17:52 [main] [com.invoicing.Utils.Actions.BrowserActions] - Navigated To URL : http://10.140.105.111:30002/a98a39ed-2070-472f-3238-08dec24d8998/auth/login
+[DEBUG] 06-09-2026 12:17:52 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.id: emailField
+[DEBUG] 06-09-2026 12:17:52 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.id: emailField
+[DEBUG] 06-09-2026 12:17:52 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.id: emailField
+[INFO] 06-09-2026 12:17:53 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.id: emailField Successfully
+[INFO] 06-09-2026 12:17:53 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.id: passwordField Successfully
+[INFO] 06-09-2026 12:17:53 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.id: submitButton Successfully
+[INFO] 06-09-2026 12:17:54 [main] [com.invoicing.Utils.Actions.BrowserActions] - Current URL : http://10.140.105.111:30002/home
+[INFO] 06-09-2026 12:17:54 [main] [com.invoicing.Utils.Actions.BrowserActions] - Current URL : http://10.140.105.111:30002/home
+[INFO] 06-09-2026 12:17:54 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.cssSelector: li[routerlink="/roles"] Successfully
+[DEBUG] 06-09-2026 12:17:54 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:17:55 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:17:55 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:17:55 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:17:55 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:17:55 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[DEBUG] 06-09-2026 12:17:55 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [routerlink="add"]
+[INFO] 06-09-2026 12:17:56 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.cssSelector: [routerlink="add"] Successfully
+[DEBUG] 06-09-2026 12:17:56 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: [formcontrolname="roleName"]
+[INFO] 06-09-2026 12:17:57 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.cssSelector: [formcontrolname="roleName"] Successfully
+[INFO] 06-09-2026 12:17:57 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //*[@formcontrolname="organizationName"] Successfully
+[INFO] 06-09-2026 12:17:58 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //span[.=' abu dahbi bank '] Successfully
+[INFO] 06-09-2026 12:17:58 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: (//div[@_ngcontent-ng-c3576967370]/h5[.='Hierarchy Builder']//following::input)[1] Successfully
+[INFO] 06-09-2026 12:17:58 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: (//div[@_ngcontent-ng-c3576967370]/h5[.='User Management']//following::input)[1] Successfully
+[INFO] 06-09-2026 12:17:59 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: (//div[@_ngcontent-ng-c3576967370]/h5[.='Role Management']//following::input)[1] Successfully
+[INFO] 06-09-2026 12:17:59 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: (//div[@_ngcontent-ng-c3576967370]/h5[.='Invoicing Management']//following::input)[1] Successfully
+[INFO] 06-09-2026 12:17:59 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: (//div[@_ngcontent-ng-c3576967370]/h5[.='Service Catalog']//following::input)[1] Successfully
+[INFO] 06-09-2026 12:17:59 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: (//div[@_ngcontent-ng-c3576967370]/h5[.='Bank Info']//following::input)[1] Successfully
+[INFO] 06-09-2026 12:18:00 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.cssSelector: button[type="submit"] Successfully
+[DEBUG] 06-09-2026 12:18:00 [main] [com.invoicing.Pages.RolesPage] - Admin role added successfully : ADMIN AUTOMATION 20260906121752
+[DEBUG] 06-09-2026 12:18:00 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.cssSelector: h2[_ngcontent-ng-c3919432026]
+[INFO] 06-09-2026 12:18:00 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Got Text from Element: By.cssSelector: h2[_ngcontent-ng-c3919432026] Successfully
+[INFO] 06-09-2026 12:18:00 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.cssSelector: button[_ngcontent-ng-c3919432026] Successfully
+[INFO] 06-09-2026 12:18:01 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //td[.='ADMIN AUTOMATION 20260906121752']//following-sibling::td[3]/a Successfully
+[DEBUG] 06-09-2026 12:18:01 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: (//div[@_ngcontent-ng-c3576967370]/h5[.='User Management']//following::input)[1]
+[INFO] 06-09-2026 12:18:03 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: (//div[@_ngcontent-ng-c3576967370]/h5[.='User Management']//following::input)[1] Successfully
+[INFO] 06-09-2026 12:18:03 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.cssSelector: button[type="submit"] Successfully
+[INFO] 06-09-2026 12:18:04 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //button[.=' Apply '] Successfully
+[INFO] 06-09-2026 12:18:05 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Got Text from Element: By.cssSelector: h2[_ngcontent-ng-c3919432026] Successfully
+[INFO] 06-09-2026 12:18:05 [main] [com.invoicing.Media.ScreenShotManager] - ===== takeScreenShot() called =====
+[INFO] 06-09-2026 12:18:05 [main] [com.invoicing.Media.ScreenShotManager] - Driver = ChromeDriver: chrome on windows (909e6178994dde22a564ba321c49f8a8)
+[INFO] 06-09-2026 12:18:05 [main] [com.invoicing.Media.ScreenShotManager] - Temporary Screenshot = C:\Users\AHMED~1.ABD\AppData\Local\Temp\screenshot12359822875447110584.png
+[INFO] 06-09-2026 12:18:05 [main] [com.invoicing.Media.ScreenShotManager] - Final Path = C:\Users\Ahmed.Abdelbary\Desktop\POS Revamp Automation\Invoicing\test-output\screenshots\Passed-editRoleByUnSelectPermissions-20260906121805.png
+[INFO] 06-09-2026 12:18:05 [main] [com.invoicing.Media.ScreenShotManager] - Saved Screenshot = C:\Users\Ahmed.Abdelbary\Desktop\POS Revamp Automation\Invoicing\test-output\screenshots\Passed-editRoleByUnSelectPermissions-20260906121805.png
+[INFO] 06-09-2026 12:18:05 [main] [com.invoicing.Media.ScreenShotManager] - Captured Screenshot successfully
