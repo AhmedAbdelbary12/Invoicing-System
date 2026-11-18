@@ -58,12 +58,12 @@ public class TestNgListeners implements IInvokedMethodListener, ITestListener, I
     }
 
     public void onTestFailure(ITestResult result) {
-        LogsManager.info("Test Case : " + result.getName() + " Is Failed");
+        LogsManager.info("Test Failed : " + result.getName() + " Is Failed");
 
     }
 
     public void onTestSkipped(ITestResult result) {
-        LogsManager.info("Test Case : " + result.getName() + " Is Skipped");
+        LogsManager.info("Test Skipped : " + result.getName() + " Is Skipped");
 
     }
 

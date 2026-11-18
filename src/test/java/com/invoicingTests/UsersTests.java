@@ -1,6 +1,7 @@
 package com.invoicingTests;
 
 import com.invoicing.DB.DBManager;
+import com.invoicing.DB.DBRoleManager;
 import com.invoicing.Drivers.GUIDriver;
 import com.invoicing.Pages.LoginPage;
 import com.invoicing.Utils.DataManagement.JSONReader;
@@ -20,7 +21,7 @@ public class UsersTests extends BaseTest {
     public void teardown() {
         SoftAssertion.assertAll();
         for (String roleName : deleteRole) {
-            DBManager.deleteRole(roleName);
+            DBRoleManager.deleteRole(roleName);
         }
         deleteRole.clear();
         driver.quitDriver();

@@ -20,6 +20,14 @@
   },
   "HierarchyInfo": {
     "Level1Name": "Sport Type",
-    "Node": "FootBall"
+    "Node1": "FootBall",
+    "Node2": "BasketBall",
+    "Node3": "Swimming"
+  },
+  "HierarchyInfoSecondLevel": {
+    "Level2Name": "Players",
+    "Node1": "Ahmed",
+    "Node2": "Ali",
+    "Node3": "Mohamed"
   }
 }

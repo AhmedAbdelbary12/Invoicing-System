@@ -14,6 +14,12 @@ public enum Browser {
         public AbstractFactory getDriverFactory() {
             return new EdgeFactory();
         }
+    },
+    FIREFOX {
+        @Override
+        public AbstractFactory getDriverFactory() {
+            return new FireFoxFactory();
+        }
     };
 
     public abstract AbstractFactory getDriverFactory();
