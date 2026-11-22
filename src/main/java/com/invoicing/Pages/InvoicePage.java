@@ -171,5 +171,30 @@ public class InvoicePage {
         return this;
     }
 
+    public PaymentGatewayPage getInvoiceLink(String clientNamee) {
+        String parentWindow;
+        String paymentWindow;
+
+        LogsManager.debug("Payment Link:" + DBInvoiceManager.getPaymentLink(clientNamee));
+        String paymentLink = DBInvoiceManager.getPaymentLink(clientNamee);
+        LogsManager.debug("paymentLink : " + paymentLink);
+
+        parentWindow = driver.get().getWindowHandle();
+        System.out.println("Parent ::: " + parentWindow);
+
+        driver.get().switchTo().newWindow(WindowType.TAB);
+        paymentWindow = driver.get().getWindowHandle();
+        LogsManager.debug("Parent: " + parentWindow + " | Payment: " + paymentWindow);
+
+
+        driver.browser().navigate(paymentLink);
+
+
+        return new PaymentGatewayPage(driver);
+
+
+    }
+
+
 }
 
