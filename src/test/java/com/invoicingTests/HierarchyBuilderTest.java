@@ -2,6 +2,7 @@ package com.invoicingTests;
 
 import com.invoicing.APIs.userManagementAPI;
 import com.invoicing.DB.DBManager;
+import com.invoicing.DB.DBOrgManager;
 import com.invoicing.Drivers.GUIDriver;
 import com.invoicing.Pages.LoginPage;
 import com.invoicing.Utils.DataManagement.JSONReader;
@@ -21,6 +22,7 @@ import static com.invoicing.Utils.DataManagement.PropertyReader.getProperty;
 @Test(groups = {"regression"})
 public class HierarchyBuilderTest extends BaseTest {
     private final List<String> deleteOrgInfo = new ArrayList<>();
+    private final List<String> createOrgInfo = new ArrayList<>();
 
 
     @BeforeClass(alwaysRun = true)
@@ -38,7 +40,7 @@ public class HierarchyBuilderTest extends BaseTest {
     public void teardown() {
         SoftAssertion.assertAll();
         for (String orgInfo : deleteOrgInfo) {
-            DBManager.deleteOrgInfo(orgInfo);
+            DBOrgManager.deleteOrgInfo(orgInfo);
         }
         deleteOrgInfo.clear();
         //driver.quitDriver();
@@ -54,6 +56,7 @@ public class HierarchyBuilderTest extends BaseTest {
     @Test
     @Description("User Add New Valid Single Hierarchy")
     public void addNewHierarchy() {
+
 
         String randomSlug = FakerManager.getFaker().name().firstName().toLowerCase().substring(0, 3);
         LogsManager.debug("Slug Added: " + randomSlug);
@@ -75,19 +78,30 @@ public class HierarchyBuilderTest extends BaseTest {
                         logo)
                 .validateOrgIsCreated();
 
-        LogsManager.debug("Added OrgName: " + jsonReader.getJsonData("OrgInfo.DisplayName") + TimeStamp);
 
         // UI Level
         new LoginPage(driver)
-                .Login(jsonReader.getJsonData("loginData.email"),
-                        jsonReader.getJsonData("loginData.password"))
+                .Login(jsonReader.getJsonData("loginData.email")
+                        , jsonReader.getJsonData("loginData.password"))
                 .verifyLoggedIn(jsonReader.getJsonData("expectedURL"))
                 .NavigateToHierarchyBuilderPage()
                 .clickOnAddNewHierarchyButton()
                 .clickOnNewHierarchButton()
                 .selectOrganization(jsonReader.getJsonData("OrgInfo.DisplayName") + TimeStamp)
-                .typeLevelName(jsonReader.getJsonData("HierarchyInfo.Level1Name"))
-                .typeNode(jsonReader.getJsonData("HierarchyInfo.Node"));
+                .typeLevelName(jsonReader.getJsonData("HierarchyInfo.Level1Name")) // Sports
+                .typeInFirstNode(jsonReader.getJsonData("HierarchyInfo.Node1"))
+                .clickOnSecondNode()
+                .typeInSecondNode(jsonReader.getJsonData("HierarchyInfo.Node2"))
+                .clickOnThirdNode()
+                .typeInThirdNode(jsonReader.getJsonData("HierarchyInfo.Node3"))
+                .clickOnAddLevel()
+                .typeSecondLevelName(jsonReader.getJsonData("HierarchyInfoSecondLevel.Level2Name"))
+                .clickOnFirstNodeLevel1()
+                .typeInFirstNode(jsonReader.getJsonData("HierarchyInfoSecondLevel.Node1"))
+                .clickOnAddNodeLevelTwo()
+                .typeInSecondNode(jsonReader.getJsonData("HierarchyInfoSecondLevel.Node2"))
+                .clickOnAddNodeLevelTwo()
+                .typeInThirdNode(jsonReader.getJsonData("HierarchyInfoSecondLevel.Node3"));
         deleteOrgInfo.add(jsonReader.getJsonData("OrgInfo.DisplayName") + TimeStamp);
     }
 

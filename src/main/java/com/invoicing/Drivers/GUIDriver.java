@@ -19,10 +19,15 @@ public class GUIDriver {
     public GUIDriver() {
 
         Browser browserType = Browser.valueOf(browser.toUpperCase());
-        LogsManager.info("Starting driver for Browser" + browserType);// Browser.Edge
+        LogsManager.info("Starting driver for Browser : " + browserType);// Browser.Edge
         AbstractFactory abstractFactory = browserType.getDriverFactory(); // New EdgeFactory EDGE.
         WebDriver driver = ThreadGuard.protect(abstractFactory.createDriver()); // New EdgeDriver
         driverThreadLocal.set(driver);
+
+        // Maximize window in case run on FIREFOX
+        if (browserType.equals(Browser.FIREFOX) && PropertyReader.getProperty("ExecutionType").equals("local")) {
+            driverThreadLocal.get().manage().window().maximize();
+        }
     }
 
     public ActionBotsFluentWait element() {

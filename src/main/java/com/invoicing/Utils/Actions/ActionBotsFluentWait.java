@@ -213,6 +213,15 @@ public class ActionBotsFluentWait {
         }
     }
 
+    private void scrollToElement(WebElement element) {
+        try {
+            Actions actions = new Actions(driver);
+            actions.scrollToElement(element).perform();
+        } catch (Exception e) {
+            LogsManager.error("Failed to scroll: " + e.getMessage());
+        }
+    }
+
 
     protected WebElement findElement(By by) {
         try {

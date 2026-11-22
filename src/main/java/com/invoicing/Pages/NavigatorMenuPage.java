@@ -43,4 +43,8 @@ public class NavigatorMenuPage {
         driver.element().click(serviceCatalogLocator);
         return new ServiceCatalogPage(driver);
     }
+
+    public InvoicePage NavigateToInvoicePage() {
+        return new InvoicePage(driver);
+    }
 }

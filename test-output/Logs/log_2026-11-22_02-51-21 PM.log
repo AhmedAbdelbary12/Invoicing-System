@@ -1,0 +1,4 @@
+[INFO] 22-11-2026 14:51:21 [main] [com.invoicing.CustomListeners.TestNgListeners] - Test successful : createInvoice_CardPaymentLink Passed 
+[INFO] 22-11-2026 14:51:21 [main] [com.invoicing.DB.DBManager] - DB Connection Closed
+[INFO] 22-11-2026 14:51:37 [main] [com.invoicing.FileUtils] - Target File Path C:\Users\Ahmed.Abdelbary\Desktop\POS Revamp Automation\Invoicing\test-output\reports\index.html was renamed to AllureReport_20261122145137.html 
+[INFO] 22-11-2026 14:51:37 [main] [com.invoicing.CustomListeners.TestNgListeners] - Allure Report is generated

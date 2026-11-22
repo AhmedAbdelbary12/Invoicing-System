@@ -1,0 +1,22 @@
+{
+  "loginData": {
+    "MerchantAlahlyMomknEmail": "jefomin242@findize.com",
+    "MerchantAlahlyMomknPassword": "Admin1234567@"
+  },
+  "expectedURL": "http://10.140.105.111:30002/home",
+  "invoiceData": {
+    "organizationPurchaseOrder": "Test Order",
+    "paymentDetails": "Test Note",
+    "clientName": "Ahmed Mostafa",
+    "mobileNumber": "01150300594",
+    "organizationReferenceNumber": "987654321",
+    "nationalID": "29812122200098"
+  },
+  "paymentMethod": {
+    "cardPaymentLink": "Pay by Link",
+    "referencePaymentLink": "Pay by momkn rep",
+    "cardPaymentLinkBeforeSelectPaymentMethod": "—",
+    "cardPaymentLinkAfterSelectPaymentMethod": "Pay by Link",
+    "referencePaymentLinkAfterSelectPaymentMethod": "Pay by momkn rep"
+  }
+}

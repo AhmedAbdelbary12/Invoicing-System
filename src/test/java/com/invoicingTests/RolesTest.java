@@ -2,6 +2,7 @@ package com.invoicingTests;
 
 import com.invoicing.APIs.userManagementAPI;
 import com.invoicing.DB.DBManager;
+import com.invoicing.DB.DBRoleManager;
 import com.invoicing.Drivers.GUIDriver;
 import com.invoicing.Pages.LoginPage;
 import com.invoicing.Pages.RolesPage;
@@ -67,7 +68,7 @@ public class RolesTest extends BaseTest {
             try {
                 for (String roleName : deleteRole) {
                     try {
-                        DBManager.deleteRole(roleName);
+                        DBRoleManager.deleteRole(roleName);
                     } catch (Exception e) {
                         LogsManager.error("Failed to delete role: " + roleName + " -> " + e.getMessage());
                     }
@@ -509,6 +510,8 @@ public class RolesTest extends BaseTest {
                         , jsonReader.getJsonData("InActiveStatus"));
         LogsManager.debug("Added Admin Role : " + jsonReader.getJsonData("roleName") + TIME_STAMP);
         deleteRole.add(jsonReader.getJsonData("roleName") + TIME_STAMP);
+        LogsManager.debug("Deleted Admin Role : " + jsonReader.getJsonData("roleName") + TIME_STAMP);
+
     }
 
 }

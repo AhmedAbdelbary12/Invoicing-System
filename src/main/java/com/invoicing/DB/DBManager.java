@@ -4,12 +4,11 @@ import com.invoicing.Utils.Logs.LogsManager;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.PreparedStatement;
 
 import static com.invoicing.Utils.DataManagement.PropertyReader.getProperty;
 
 public class DBManager {
-    private static Connection connection;
+    protected static Connection connection;
 
     public static void connect() {
         try {
@@ -26,6 +25,18 @@ public class DBManager {
 
     }
 
+    public static void closeConnection() {
+        try {
+            if (connection != null && !connection.isClosed()) {
+                connection.close();
+                LogsManager.info("DB Connection Closed");
+            }
+        } catch (Exception e) {
+            LogsManager.error("Failed to close DB: " + e.getMessage());
+        }
+    }
+
+    /*
     public static void deleteRole(String roleName) {
         try {
             String query = "DELETE FROM [Invoicing].[adb].[AspNetRoles] WHERE Name = ?";
@@ -51,15 +62,7 @@ public class DBManager {
             throw new RuntimeException(e);
         }
     }
+    */
 
-    public static void closeConnection() {
-        try {
-            if (connection != null && !connection.isClosed()) {
-                connection.close();
-                LogsManager.info("DB Connection Closed");
-            }
-        } catch (Exception e) {
-            LogsManager.error("Failed to close DB: " + e.getMessage());
-        }
-    }
+
 }
