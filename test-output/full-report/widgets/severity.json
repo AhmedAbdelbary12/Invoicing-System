@@ -1,1 +1,1 @@
-[{"uid":"cae496642145a000","name":"createInvoice_ReferencePaymentLink","time":{"start":1795010354373,"stop":1795010380412,"duration":26039},"status":"passed","severity":"normal"}]
+[{"uid":"8f9cd77e76972e5b","name":"createInvoice_CardPaymentLink","time":{"start":1795351866605,"stop":1795351881822,"duration":15217},"status":"passed","severity":"normal"}]

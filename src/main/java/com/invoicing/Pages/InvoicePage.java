@@ -1,9 +1,11 @@
 package com.invoicing.Pages;
 
+import com.invoicing.DB.DBInvoiceManager;
 import com.invoicing.Drivers.GUIDriver;
 import com.invoicing.Utils.Logs.LogsManager;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WindowType;
 
 public class InvoicePage {
 

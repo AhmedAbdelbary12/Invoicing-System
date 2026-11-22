@@ -1,0 +1,114 @@
+[DEBUG] 22-11-2026 14:50:58 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\Ahmed.Abdelbary\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml"
+[INFO] 22-11-2026 14:50:59 [main] [com.invoicing.CustomListeners.TestNgListeners] - Test Execution Started
+[INFO] 22-11-2026 14:50:59 [main] [com.invoicing.CustomListeners.TestNgListeners] - Directories are cleaned
+[INFO] 22-11-2026 14:50:59 [main] [com.invoicing.FileUtils] - Directory is Created Successfully
+[INFO] 22-11-2026 14:50:59 [main] [com.invoicing.CustomListeners.TestNgListeners] - Test Execution are created
+[INFO] 22-11-2026 14:50:59 [main] [com.invoicing.CustomListeners.TestNgListeners] - Properties files are loaded
+[INFO] 22-11-2026 14:50:59 [main] [com.invoicing.Utils.Reports.AllureEnvironmentManager] - Allure Environment Manager has been set
+[WARN] 22-11-2026 14:51:00 [main] [com.invoicing.Utils.Reports.AllureBinaryManager$LazyHolder] - Couldn't resolve latest Allure version. Using default 2.34.1
+[WARN] 22-11-2026 14:51:00 [main] [com.invoicing.Utils.Reports.AllureBinaryManager] - Downloading Allure Report from 2.34.1
+[INFO] 22-11-2026 14:51:00 [main] [com.invoicing.Utils.Reports.AllureBinaryManager] - Allure Binary Already exists
+[INFO] 22-11-2026 14:51:00 [main] [com.invoicing.CustomListeners.TestNgListeners] - Allure Environment is set
+[INFO] 22-11-2026 14:51:00 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\Ahmed.Abdelbary\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+[INFO] 22-11-2026 14:51:00 [main] [com.invoicing.DB.DBManager] - DB Connected Successfully
+[INFO] 22-11-2026 14:51:00 [main] [com.invoicing.Drivers.GUIDriver] - Starting driver for Browser : EDGE
+[INFO] 22-11-2026 14:51:06 [main] [com.invoicing.Utils.Actions.BrowserActions] - Navigated To URL : http://10.140.105.111:30002/CEA05B9A-0B2C-4B4A-2B5E-08DEC24E2DDA/auth/login
+[DEBUG] 22-11-2026 14:51:07 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['loginData']['MerchantAlahlyMomknEmail']
+[DEBUG] 22-11-2026 14:51:07 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['loginData']['MerchantAlahlyMomknPassword']
+[INFO] 22-11-2026 14:51:08 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.id: emailField Successfully
+[INFO] 22-11-2026 14:51:08 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.id: passwordField Successfully
+[INFO] 22-11-2026 14:51:08 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.id: submitButton Successfully
+[DEBUG] 22-11-2026 14:51:08 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['expectedURL']
+[INFO] 22-11-2026 14:51:09 [main] [com.invoicing.Utils.Actions.BrowserActions] - Current URL : http://10.140.105.111:30002/home
+[INFO] 22-11-2026 14:51:09 [main] [com.invoicing.Utils.Actions.BrowserActions] - Current URL : http://10.140.105.111:30002/home
+[INFO] 22-11-2026 14:51:10 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //span[.=' Create Invoice '] Successfully
+[DEBUG] 22-11-2026 14:51:10 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //button[.=' Create New Invoice33 ']
+[DEBUG] 22-11-2026 14:51:10 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //button[.=' Create New Invoice33 ']
+[DEBUG] 22-11-2026 14:51:10 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //button[.=' Create New Invoice33 ']
+[DEBUG] 22-11-2026 14:51:10 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //button[.=' Create New Invoice33 ']
+[DEBUG] 22-11-2026 14:51:10 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //button[.=' Create New Invoice33 ']
+[DEBUG] 22-11-2026 14:51:10 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //button[.=' Create New Invoice33 ']
+[DEBUG] 22-11-2026 14:51:10 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //button[.=' Create New Invoice33 ']
+[DEBUG] 22-11-2026 14:51:11 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //button[.=' Create New Invoice33 ']
+[DEBUG] 22-11-2026 14:51:11 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //button[.=' Create New Invoice33 ']
+[DEBUG] 22-11-2026 14:51:11 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //button[.=' Create New Invoice33 ']
+[DEBUG] 22-11-2026 14:51:11 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //button[.=' Create New Invoice33 ']
+[INFO] 22-11-2026 14:51:11 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //button[.=' Create New Invoice33 '] Successfully
+[DEBUG] 22-11-2026 14:51:11 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //span[.='Select level']/parent::div
+[DEBUG] 22-11-2026 14:51:12 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //span[.='Select level']/parent::div
+[DEBUG] 22-11-2026 14:51:12 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //span[.='Select level']/parent::div
+[INFO] 22-11-2026 14:51:12 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //span[.='Select level']/parent::div Successfully
+[INFO] 22-11-2026 14:51:12 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //span[normalize-space(.) ='Departments'] Successfully
+[INFO] 22-11-2026 14:51:12 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //span[.='Enter billing entity']/parent::div Successfully
+[INFO] 22-11-2026 14:51:12 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //span[.=' Tec '] Successfully
+[INFO] 22-11-2026 14:51:13 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //input[@placeholder="Select invoice due date"] Successfully
+[INFO] 22-11-2026 14:51:13 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: (//button[contains(@class,'text-[#263238]') and not(contains(@class,'cursor-not-allowed'))])[3] Successfully
+[INFO] 22-11-2026 14:51:13 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //button[.=' Apply '] Successfully
+[DEBUG] 22-11-2026 14:51:13 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invoiceData']['organizationReferenceNumber']
+[INFO] 22-11-2026 14:51:13 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.xpath: //input[@formcontrolname="organizationInvoiceReference"] Successfully
+[DEBUG] 22-11-2026 14:51:13 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invoiceData']['paymentDetails']
+[INFO] 22-11-2026 14:51:13 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.xpath: //textarea[@formcontrolname="paymentDetails"] Successfully
+[DEBUG] 22-11-2026 14:51:13 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invoiceData']['clientName']
+[INFO] 22-11-2026 14:51:13 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.xpath: //input[@formcontrolname="clientName"] Successfully
+[DEBUG] 22-11-2026 14:51:13 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invoiceData']['mobileNumber']
+[INFO] 22-11-2026 14:51:13 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.xpath: //input[@formcontrolname="mobileNumber"] Successfully
+[DEBUG] 22-11-2026 14:51:13 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invoiceData']['nationalID']
+[INFO] 22-11-2026 14:51:14 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.xpath: //input[@formcontrolname="nationalId"] Successfully
+[INFO] 22-11-2026 14:51:14 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //span[.='Select service name']/parent::div Successfully
+[INFO] 22-11-2026 14:51:14 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //span[.=' bills ']/parent::div Successfully
+[INFO] 22-11-2026 14:51:14 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //button[.=' Create Invoice '] Successfully
+[DEBUG] 22-11-2026 14:51:14 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //button[.=' Ok ']
+[INFO] 22-11-2026 14:51:14 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //button[.=' Ok '] Successfully
+[DEBUG] 22-11-2026 14:51:14 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invoiceData']['clientName']
+[DEBUG] 22-11-2026 14:51:14 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['paymentMethod']['cardPaymentLinkBeforeSelectPaymentMethod']
+[DEBUG] 22-11-2026 14:51:14 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //tbody /tr[1]/td[6]
+[DEBUG] 22-11-2026 14:51:14 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //tbody /tr[1]/td[6]
+[INFO] 22-11-2026 14:51:15 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Got Text from Element: By.xpath: //tbody /tr[1]/td[6] Successfully
+[INFO] 22-11-2026 14:51:15 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Got Text from Element: By.xpath: //tbody /tr[1]/td[9] Successfully
+[DEBUG] 22-11-2026 14:51:15 [main] [com.invoicing.Pages.InvoicePage] - Invoice Created Successfully with ActualName Client Name: Ahmed Mostafa20261122145106
+[DEBUG] 22-11-2026 14:51:15 [main] [com.invoicing.Pages.InvoicePage] - Invoice Created Successfully with ExpectedName Client Name: Ahmed Mostafa20261122145106
+[DEBUG] 22-11-2026 14:51:15 [main] [com.invoicing.Pages.InvoicePage] - Invoice Created Successfully with ActualPaymentMethod Before Select Method : —
+[DEBUG] 22-11-2026 14:51:15 [main] [com.invoicing.Pages.InvoicePage] - Invoice Created Successfully with ExpectedPaymentMethod Before Select Method: —
+[INFO] 22-11-2026 14:51:15 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //tbody/tr[1]/td[14]/button Successfully
+[DEBUG] 22-11-2026 14:51:15 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //tbody/tr[1]/td[14]/div//a/span[.='View']
+[INFO] 22-11-2026 14:51:15 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //tbody/tr[1]/td[14]/div//a/span[.='View'] Successfully
+[DEBUG] 22-11-2026 14:51:15 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //button[normalize-space(.) ='Pay']
+[DEBUG] 22-11-2026 14:51:15 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //button[normalize-space(.) ='Pay']
+[INFO] 22-11-2026 14:51:16 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //button[normalize-space(.) ='Pay'] Successfully
+[DEBUG] 22-11-2026 14:51:16 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['paymentMethod']['cardPaymentLink']
+[INFO] 22-11-2026 14:51:16 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //span[.='Select payment method']/parent::div Successfully
+[INFO] 22-11-2026 14:51:16 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //span[normalize-space(.) ='Pay by Link']/parent::div Successfully
+[INFO] 22-11-2026 14:51:16 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //button[normalize-space(.)='Confirm'] Successfully
+[DEBUG] 22-11-2026 14:51:16 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //app-action-dialog//ancestor::button[normalize-space(.)='Ok']
+[DEBUG] 22-11-2026 14:51:16 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //app-action-dialog//ancestor::button[normalize-space(.)='Ok']
+[DEBUG] 22-11-2026 14:51:16 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //app-action-dialog//ancestor::button[normalize-space(.)='Ok']
+[DEBUG] 22-11-2026 14:51:16 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //app-action-dialog//ancestor::button[normalize-space(.)='Ok']
+[INFO] 22-11-2026 14:51:17 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Clicked on Element: By.xpath: //app-action-dialog//ancestor::button[normalize-space(.)='Ok'] Successfully
+[DEBUG] 22-11-2026 14:51:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['paymentMethod']['cardPaymentLinkAfterSelectPaymentMethod']
+[DEBUG] 22-11-2026 14:51:17 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //tbody /tr[1]/td[9]
+[DEBUG] 22-11-2026 14:51:17 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //tbody /tr[1]/td[9]
+[INFO] 22-11-2026 14:51:17 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Got Text from Element: By.xpath: //tbody /tr[1]/td[9] Successfully
+[DEBUG] 22-11-2026 14:51:17 [main] [com.invoicing.Pages.InvoicePage] - Invoice Created Successfully with ActualPaymentMethod After Select Method: Pay by Link
+[DEBUG] 22-11-2026 14:51:17 [main] [com.invoicing.Pages.InvoicePage] - Invoice Created Successfully with ExpectedPaymentMethod After Select Method: Pay by Link
+[DEBUG] 22-11-2026 14:51:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['invoiceData']['clientName']
+[DEBUG] 22-11-2026 14:51:17 [main] [com.invoicing.DB.DBInvoiceManager] - Invoice found for client: Ahmed Mostafa20261122145106
+[DEBUG] 22-11-2026 14:51:17 [main] [com.invoicing.Pages.InvoicePage] - Payment Link:https://momknpaystaging.alahlymomkn.com/plugin?invoiceId=aNBw9XoGxAF3rLPri
+[DEBUG] 22-11-2026 14:51:18 [main] [com.invoicing.DB.DBInvoiceManager] - Invoice found for client: Ahmed Mostafa20261122145106
+[DEBUG] 22-11-2026 14:51:18 [main] [com.invoicing.Pages.InvoicePage] - paymentLink : https://momknpaystaging.alahlymomkn.com/plugin?invoiceId=aNBw9XoGxAF3rLPri
+[DEBUG] 22-11-2026 14:51:18 [main] [com.invoicing.Pages.InvoicePage] - Parent: 225FC9A4A73B5F226877BD3ED2A8E0F8 | Payment: 43EE2E640D1E4C3F9876648211C62CDB
+[INFO] 22-11-2026 14:51:20 [main] [com.invoicing.Utils.Actions.BrowserActions] - Navigated To URL : https://momknpaystaging.alahlymomkn.com/plugin?invoiceId=aNBw9XoGxAF3rLPri
+[DEBUG] 22-11-2026 14:51:20 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //input[@formcontrolname="customerEmail"]
+[DEBUG] 22-11-2026 14:51:20 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //input[@formcontrolname="customerEmail"]
+[DEBUG] 22-11-2026 14:51:20 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //input[@formcontrolname="customerEmail"]
+[DEBUG] 22-11-2026 14:51:21 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //input[@formcontrolname="customerEmail"]
+[DEBUG] 22-11-2026 14:51:21 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //input[@formcontrolname="customerEmail"]
+[DEBUG] 22-11-2026 14:51:21 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Element not yet present, retrying: By.xpath: //input[@formcontrolname="customerEmail"]
+[INFO] 22-11-2026 14:51:21 [main] [com.invoicing.Utils.Actions.ActionBotsFluentWait] - Entered Text on Element: By.xpath: //input[@formcontrolname="customerEmail"] Successfully
+[INFO] 22-11-2026 14:51:21 [main] [com.invoicing.Media.ScreenShotManager] - ===== takeScreenShot() called =====
+[INFO] 22-11-2026 14:51:21 [main] [com.invoicing.Media.ScreenShotManager] - Driver = EdgeDriver: MicrosoftEdge on windows (e9671a053cbc03ef4aa4ea6ffc46bed4)
+[INFO] 22-11-2026 14:51:21 [main] [com.invoicing.Media.ScreenShotManager] - Temporary Screenshot = C:\Users\AHMED~1.ABD\AppData\Local\Temp\screenshot267202931898058590.png
+[INFO] 22-11-2026 14:51:21 [main] [com.invoicing.Media.ScreenShotManager] - Final Path = C:\Users\Ahmed.Abdelbary\Desktop\POS Revamp Automation\Invoicing\test-output\screenshots\Passed-createInvoice_CardPaymentLink-20261122145121.png
+[INFO] 22-11-2026 14:51:21 [main] [com.invoicing.Media.ScreenShotManager] - Saved Screenshot = C:\Users\Ahmed.Abdelbary\Desktop\POS Revamp Automation\Invoicing\test-output\screenshots\Passed-createInvoice_CardPaymentLink-20261122145121.png
+[INFO] 22-11-2026 14:51:21 [main] [com.invoicing.Media.ScreenShotManager] - Captured Screenshot successfully

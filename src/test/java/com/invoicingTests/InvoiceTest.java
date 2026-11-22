@@ -85,7 +85,11 @@ public class InvoiceTest extends BaseTest {
                 .clickOnViewButton()
                 .clickOnPayButton()
                 .selectPaymentMethod(jsonReader.getJsonData("paymentMethod.cardPaymentLink"))
-                .checkIfInvoiceCreatedSuccessfullyAfterAddingPaymentMethod(jsonReader.getJsonData("paymentMethod.cardPaymentLinkAfterSelectPaymentMethod"));
+                .checkIfInvoiceCreatedSuccessfullyAfterAddingPaymentMethod(jsonReader.getJsonData("paymentMethod.cardPaymentLinkAfterSelectPaymentMethod"))
+                .getInvoiceLink(jsonReader.getJsonData("invoiceData.clientName") + TimeStamp)
+                .EnterEmail();
+
+
         //deleteInvoice.add(jsonReader.getJsonData("invoiceData.clientName") + TimeStamp);
     }
 

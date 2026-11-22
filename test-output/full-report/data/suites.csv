@@ -1,2 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"Merchant Create Invoice Successfully with Payment Method : Reference Payment Link","26039","createInvoice_ReferencePaymentLink","Default Suite","Wed Nov 18 15:59:14 EET 2026","passed","Wed Nov 18 15:59:40 EET 2026","com.invoicingTests.InvoiceTest","Invoicing","com.invoicingTests.InvoiceTest","createInvoice_ReferencePaymentLink"
+"Merchant Create Invoice Successfully with Payment Method : Card Payment Link","15217","createInvoice_CardPaymentLink","Default Suite","Sun Nov 22 14:51:06 EET 2026","passed","Sun Nov 22 14:51:21 EET 2026","com.invoicingTests.InvoiceTest","Invoicing","com.invoicingTests.InvoiceTest","createInvoice_CardPaymentLink"
